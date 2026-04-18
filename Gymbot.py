@@ -77,13 +77,13 @@ print("| --------------------------------------------------------------------- |
 print()
 
 #احتياج الماكروز اليومي
-print("Your daily nesscisty of calories is : " + str(TDEE) )
+print("Your daily necessity of calories is : " + str(TDEE) )
 print()
-print("Your daily nesscisty of protien is : " + str(weight * 1.6) + "gm" + " - " + str(weight * 2.2) + "gm")
+print("Your daily necessity of protien is : " + str(weight * 1.6) + "gm" + " - " + str(weight * 2.2) + "gm")
 print()
-print("Your daily nesscisty of carbs is : " + str(weight * 4) + "gm")
+print("Your daily necessity of carbs is : " + str(weight * 4) + "gm")
 print()
-print("Your daily nesscisty of fat is : " + str(weight) + "gm")
+print("Your daily necessity of fat is : " + str(weight) + "gm")
 
 #رساله ختاميه 
 print()
