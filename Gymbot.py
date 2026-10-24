@@ -19,8 +19,8 @@ print()
 
 #معالجة مدة التمرين 
 if exp == 1 :
-    print("You are begginer,You still have many things to know.")
-    rank = "Begginer"
+    print("You are beginner,You still have many things to know.")
+    rank = "Beginner"
 elif exp == 2 :
     print("You are intermediate,You are trianing so hard!")
     rank = "Intermediate"
@@ -47,7 +47,7 @@ print("Your Weight in lbs is " + str(weight_lbs) + "lbs ")
 #طول المستخدم
 print()
 height = int(input("Height : "))
-height_feet = round(height / 30.84 , 1)
+height_feet = round(height / 30.48 , 1)
 print()
 print("Your height in feet = " + str(height_feet))
 
@@ -79,7 +79,7 @@ print()
 #احتياج الماكروز اليومي
 print("Your daily necessity of calories is : " + str(round(TDEE)) + ".")
 print()
-print("Your daily necessity of protien is : " + str(round(weight * 1.6)) + "gm" + " - " + str(round(weight * 2.2)) + "gm")
+print("Your daily necessity of protein is : " + str(round(weight * 1.6)) + "gm" + " - " + str(round(weight * 2.2)) + "gm")
 print()
 print("Your daily necessity of carbs is : " + str(round(weight * 4)) + "gm")
 print()
